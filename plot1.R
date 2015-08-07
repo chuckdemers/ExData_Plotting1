@@ -63,11 +63,17 @@ power <- subset(power, datetime >= strptime("2007-02-01","%Y-%m-%d")
 ##  Step 5: Generate the plot
 ################################################################################
 
+##    a) Set the device to be used along with its parameters
+
 png(filename=imagefile, width=480, height=480, units="px" )
+
+##    b) Generate the plot
 
 hist(power$Global_active_power, 
      col="Red",
      xlab="Global Active Power (kilowatts)",
      main="Global Active Power")
+
+##    c) Turn off the new device giving control back to monitor
 
 dev.off()
