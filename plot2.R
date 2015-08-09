@@ -1,6 +1,6 @@
 
 ##
-##  Explorator Data Analysis - Project 1
+##  Exploratory Data Analysis - Project 1
 ##  Chuck Demers
 ##  Aug 6, 2015
 ##

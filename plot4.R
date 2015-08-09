@@ -1,6 +1,6 @@
 
 ##
-##  Explorator Data Analysis - Project 1
+##  Exploratory Data Analysis - Project 1
 ##  Chuck Demers
 ##  Aug 6, 2015
 ##
@@ -79,7 +79,6 @@ with( power, plot( datetime, Global_active_power,
 	               ylab="Global Active Power" )
 	)
 with( power, lines(datetime, Global_active_power, type="l" ))
-#lines(power$datetime, power$Global_active_power, type="l" ))
 
 ##    c) Generate the second plt
 
